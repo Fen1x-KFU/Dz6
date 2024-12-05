@@ -10,47 +10,47 @@ namespace Тумаков
             Console.WriteLine($"Задание {n}");
         }
 
-        //static void Task1()
-        //{
-        //    StartT("7.1");
+        static void Task1()
+        {
+            StartT("7.1");
 
-        //    Console.WriteLine("Введиет номер счёта:");
-        //    string scorenum = Console.ReadLine();
+            Console.WriteLine("Введиет номер счёта:");
+            string scorenum = Console.ReadLine();
 
-        //    Console.WriteLine("Введите ваш баланс:");
-        //    if (decimal.TryParse(Console.ReadLine(), out decimal balance) == false) 
-        //    {
-        //        Console.WriteLine("Вы ввели не число ");
-        //    }
+            Console.WriteLine("Введите ваш баланс:");
+            if (decimal.TryParse(Console.ReadLine(), out decimal balance) == false)
+            {
+                Console.WriteLine("Вы ввели не число ");
+            }
 
-        //    Console.WriteLine("Введите тип банковского счёта. Он может быть 'Сберегательный' или 'Текущий'!");
-        //    string type = Console.ReadLine();
-            
-        //    BankScore account = new BankScore(scorenum, balance, type);
+            Console.WriteLine("Введите тип банковского счёта. Он может быть 'Сберегательный' или 'Текущий'!");
+            string type = Console.ReadLine();
 
-        //    account.Print();
-        //}
+            BankScore account = new BankScore(scorenum, balance, type);
 
-        //static void Task2()
-        //{
-        //    StartT("7.2");
+            account.Print();
+        }
 
-        //    Console.WriteLine("Введиет номер счёта:");
-        //    string scorenum = Console.ReadLine();
+        static void Task2()
+        {
+            StartT("7.2");
 
-        //    Console.WriteLine("Введите ваш баланс:");
-        //    if (decimal.TryParse(Console.ReadLine(), out decimal balance) == false)
-        //    {
-        //        Console.WriteLine("Вы ввели не число ");
-        //    }
+            Console.WriteLine("Введиет номер счёта:");
+            string scorenum = Console.ReadLine();
 
-        //    Console.WriteLine("Введите тип банковского счёта. Он может быть 'Сберегательный' или 'Текущий'!");
-        //    string type = Console.ReadLine();
+            Console.WriteLine("Введите ваш баланс:");
+            if (decimal.TryParse(Console.ReadLine(), out decimal balance) == false)
+            {
+                Console.WriteLine("Вы ввели не число ");
+            }
 
-        //    BankScore2 account2 = new BankScore2(scorenum, balance, type);
+            Console.WriteLine("Введите тип банковского счёта. Он может быть 'Сберегательный' или 'Текущий'!");
+            string type = Console.ReadLine();
 
-        //    account2.Print2();
-        //}
+            BankScore2 account2 = new BankScore2(scorenum, balance, type);
+
+            account2.Print2();
+        }
 
         static void Task3()
         {
@@ -86,8 +86,8 @@ namespace Тумаков
         }
         static void Main()
         {
-            //Task1();
-            //Task2();
+            Task1();
+            Task2();
             Task3();
         }
     }
